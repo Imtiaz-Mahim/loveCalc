@@ -1,0 +1,118 @@
+*{
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+img{
+  width: 100%;
+}
+html{
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(360deg, rgba(255, 0, 0, 1) 0%, rgba(255, 61, 193, 1) 65%, rgba(253, 35, 255, 1) 100%);
+}
+.mainAll{
+  min-width: 22rem;
+  max-width: 35rem;
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calcText{
+  margin-top: 20px;
+  width: 80%;
+  height: auto;
+}
+.lovePicDiv{
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lovePic{
+  margin: 3rem 0;
+  width: 80%;
+}
+.ratings{
+  color: #fff;
+  position: absolute;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rate{
+  font-size: 160px;
+}
+.ratePer{
+  font-size: 110px;
+  margin-top: 40px;
+}
+.inputs{
+  display: flex;
+  justify-content: space-evenly;
+}
+input,button{
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 10px 2px navajowhite;
+  height: 40px;
+  width: 40%;
+  border-radius: 6px;
+  font-size: 28px;
+  padding: 0 8px;
+  color:cyan;
+}
+::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+.name1,.name2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 50%;
+  font-size: 35px;
+  color: antiquewhite;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+button:hover{
+  background-color: rgb(0, 0, 0, 0.4);
+  transition: 0.3s ease all;
+}
+.refreshBtn{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.refresh{
+  height: 35px;
+  width: 40%;
+  font-size: 25px;
+}
